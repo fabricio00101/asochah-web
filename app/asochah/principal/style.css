@@ -82,9 +82,8 @@ p {
     padding: 20px;
 }
 .principal_titulo{
-    border-bottom: 3px solid black;
-    display: inline-block; /* hace que el borde siga solo al texto */
-    padding-bottom: 5px;   /* espacio entre texto y línea */
+    display: inline-block; 
+    padding-bottom: 5px;   
     margin-bottom: 20px;
 }
 .principal article {
@@ -101,6 +100,12 @@ p {
 }
 
 .primera_noticia__imagen {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 2px 5px rgb(0, 0, 0)
+}
+.segunda_noticia__imagen{
     max-width: 100%;
     height: auto;
     display: block;
