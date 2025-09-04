@@ -29,7 +29,6 @@ p {
 }
 
 .nav {
-    background-color: lightgreen;
     display: flex;
     align-items: center;
     background: linear-gradient(to bottom, rgb(16, 140, 0), rgb(147, 250, 133));
@@ -129,7 +128,7 @@ p {
 }
 
 .separador__imagenes img {
-    width: 100px;
+    width: 9em;
     margin: auto 0;
     padding: 20px;
     filter: drop-shadow(0px 0px 2.5px black);
