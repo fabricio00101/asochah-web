@@ -161,6 +161,14 @@ p {
     display: block;
 
 }
+.footer_informacion__lista a{
+    text-decoration: none;
+    color: black;
+}
+.footer_informacion__lista img{
+    width: 20px;
+    height: 18px;
+}
 
 .footer_sitemap__navegacion a {
 
