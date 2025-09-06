@@ -1,16 +1,16 @@
-
-main{
+main {
     background-color: whitesmoke;
 }
 
 .contenido {
 
-    padding: 20px;
+padding: 1em;
 }
 
 .torneos_titulos {
     border-bottom: solid 2px lightblue;
-    text-align: center;
+    text-align: center; 
+    padding: 1em;
 
 }
 
@@ -23,15 +23,16 @@ main{
     font-weight: 700;
     font-size: 1.2em;
     margin: 0 auto;
-    background: linear-gradient(to bottom, rgb(132, 255, 198), rgb(80, 255, 159));
+    background: linear-gradient(to bottom, whitesmoke, rgb(184, 230, 245));
     padding: 1em;
 }
-.ramas li{
+
+.ramas li {
     list-style: none;
 }
 
 details {
 
-    
+
     display: inline-block;
 }

@@ -34,6 +34,7 @@ p {
 }
 .contenido{
     background-color: whitesmoke;
+    
 }
 .nav {
     display: flex;
@@ -82,16 +83,16 @@ p {
 
 
 .principal {
-    background-color: whitesmoke;
+    
     display: flex;
     gap: 20px;
     padding: 20px;
 }
 
-.principal_titulo {
-    display: inline-block;
-    padding-bottom: 5px;
-    margin-bottom: 20px;
+.principal_titulo{
+    text-align: center;
+    border-bottom: solid 0.5px lightblue;
+    padding: 1em;
 }
 
 .principal article {
