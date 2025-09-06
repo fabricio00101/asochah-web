@@ -1,4 +1,10 @@
-
+.contenido{
+    background-color: whitesmoke;
+}
+.titulos_formulario{
+    padding: 1em;
+    border-bottom: solid 0.5px lightblue;
+}
 .formulario{
     display: flex;
     margin-top: 20px;

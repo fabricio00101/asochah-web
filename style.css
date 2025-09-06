@@ -32,7 +32,9 @@ p {
     margin: 0;
     padding: 0;
 }
-
+.contenido{
+    background-color: whitesmoke;
+}
 .nav {
     display: flex;
     align-items: center;
