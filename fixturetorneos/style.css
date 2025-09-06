@@ -1,0 +1,37 @@
+
+main{
+    background-color: whitesmoke;
+}
+
+.contenido {
+
+    padding: 20px;
+}
+
+.torneos_titulos {
+    border-bottom: solid 2px lightblue;
+    text-align: center;
+
+}
+
+.ramas {
+    display: flex;
+    gap: 2em;
+    border: solid black 1.5px;
+    width: fit-content;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, rgb(132, 255, 198), rgb(80, 255, 159));
+    padding: 1em;
+}
+.ramas li{
+    list-style: none;
+}
+
+details {
+
+    
+    display: inline-block;
+}

@@ -1,5 +1,6 @@
 .institucional_titulo{
     border-bottom: solid 0.5px lightblue;gap:10px;
+    text-align: center;
 }
 
 .main_institucional{
@@ -7,11 +8,13 @@
     padding: 1.5em;
     gap: 2em;
     flex-wrap: wrap;
+    padding: 7em;
+    background-color: whitesmoke;
 }
 
 
 .card_presidente {
-    background: linear-gradient(to bottom, whitesmoke, rgb(184, 230, 245));
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(184, 230, 245));
     margin: auto;
     border-radius: 25px;
     box-shadow: 0px 0px 5px rgb(0, 0, 0);
