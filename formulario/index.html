@@ -33,7 +33,7 @@
         </div>
 
         <div class="formulario">
-            <form action="" class="form">
+            <form action="" class="form" method="post">
                 <h2 class="form_titulo">Formulario de contacto</h2>
                 <div class="form__input">
                     <label for="nombre">Nombre Completo</label>
@@ -48,11 +48,11 @@
                     <textarea name="" id="mensaje" placeholder="Dejá tu mensaje acá"></textarea>
                 </div>
                 <div class="tyc">
-                    <label>Acepto los terminos y condiciones
-                        <input required type="checkbox" class="checkbox">
+                    <label for="tyc">Acepto los terminos y condiciones
+                        <input required type="checkbox" class="checkbox" name="tyc" id="tyc">
                     </label>
                 </div>
-                <button class="form_boton">Enviar</button>
+                <button class="form_boton" type="submit">Enviar</button>
             </form>
         </div></div>
         

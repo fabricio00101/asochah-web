@@ -1,14 +1,14 @@
-
-.titulos_formulario{
+.titulos_formulario {
     padding: 1em;
-    border-bottom: solid 0.5px lightblue;
     text-align: center;
 }
-.formulario{
+
+.formulario {
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .form {
     background: linear-gradient(to bottom, whitesmoke, rgb(184, 230, 245));
     padding: 20px 0;
@@ -17,7 +17,7 @@
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.74);
     border-radius: 10px;
     font-size: 15px;
-    
+
 
 }
 
@@ -53,10 +53,25 @@ textarea {
 
 
 label {
-    font: size 0.9em;
+    font-size: 0.9em;
 }
-.form_boton{
-    margin-left: 300px;
+
+.form_boton {
+    display: block;
+    margin: 20px auto;
+    height: 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border: none;
+    background: rgb(147, 250, 133);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+}
+.form_boton:hover {
+    background: rgb(63, 109, 56);
+    color: white;
 }
 
 .tyc {
