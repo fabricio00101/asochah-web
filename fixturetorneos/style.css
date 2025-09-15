@@ -4,12 +4,12 @@ main {
 
 .contenido {
 
-padding: 1em;
+    padding: 1em;
 }
 
 .torneos_titulos {
     border-bottom: solid 2px lightblue;
-    text-align: center; 
+    text-align: center;
     padding: 1em;
 
 }
@@ -23,8 +23,14 @@ padding: 1em;
     font-weight: 700;
     font-size: 1.2em;
     margin: 0 auto;
-    background: linear-gradient(to bottom, whitesmoke, rgb(184, 230, 245));
     padding: 1em;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.ramas:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px black;
+    background-color: lightcyan;
 }
 
 .ramas li {

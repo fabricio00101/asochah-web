@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+
 }
 
 body {
@@ -15,15 +16,7 @@ body {
     height: 100%;
 }
 
-section,
-header,
-main,
-footer,
-nav {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
+
 
 h1,
 h2,
@@ -32,10 +25,12 @@ p {
     margin: 0;
     padding: 0;
 }
-.contenido{
+
+.contenido {
     background-color: whitesmoke;
-    
+
 }
+
 .nav {
     display: flex;
     align-items: center;
@@ -71,25 +66,32 @@ p {
     padding: 0;
     font-weight: bold;
     font-size: 20px;
-    background-color: rgba(0, 100, 0, 0.288);
-    box-shadow: 0px 0px 2px rgb(0, 0, 0);
 
 }
 
 .navegacion a {
+    display: inline-block;
     text-decoration: none;
     color: black;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
+.navegacion a:hover {
+
+    background-color: rgb(16, 140, 0);
+    transform: scale(1.2);
+
+
+}
 
 .principal {
-    
+
     display: flex;
     gap: 20px;
     padding: 20px;
 }
 
-.principal_titulo{
+.principal_titulo {
     text-align: center;
     border-bottom: solid 0.5px lightblue;
     padding: 1em;
@@ -169,13 +171,19 @@ p {
 .footer_sitemap__navegacion,
 .footer_informacion__lista {
     list-style: none;
-    display: block;
+    display: inline-block;
 
 }
 
 .footer_informacion__lista a {
+    display: inline-block;
     text-decoration: none;
     color: black;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.footer_informacion__lista a:hover {
+    filter: drop-shadow(0px 0px 0.7px black) ;
+    transform: scale(1.1);
 }
 
 .footer_informacion__lista img {
@@ -184,9 +192,18 @@ p {
 }
 
 .footer_sitemap__navegacion a {
-
+    display: inline-block;
     text-decoration: none;
     color: black;
+    transition: transform 0.3s ease, color 0.3s ease;
+
+}
+
+.footer_sitemap__navegacion a:hover {
+
+    background-color: rgb(66, 142, 241);
+    transform: scale(1.2);
+
 
 }
 
@@ -198,6 +215,7 @@ p {
 }
 
 .footer_contacto__boton {
+    display: inline-block;
     margin: auto;
     text-decoration: none;
     color: white;
@@ -205,7 +223,13 @@ p {
     padding: 10px;
     background-color: rgb(65, 65, 255);
     box-shadow: 0px 0px 2.5px black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer_contacto__boton:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 4px black;
 }
 
 @media (max-width: 768px) {
