@@ -80,7 +80,7 @@ p {
 
     background-color: rgb(16, 140, 0);
     transform: scale(1.2);
-
+border-radius: 5px;
 
 }
 
@@ -188,6 +188,7 @@ p {
 .footer_informacion__lista a:hover {
     filter: drop-shadow(0px 0px 0.7px black) ;
     transform: scale(1.1);
+    
 }
 
 .footer_informacion__lista img {
@@ -207,7 +208,7 @@ p {
 
     background-color: rgb(66, 142, 241);
     transform: scale(1.2);
-
+border-radius: 5px;
 
 }
 
@@ -233,7 +234,7 @@ p {
 
 .footer_contacto__boton:hover {
     transform: scale(1.2);
-    box-shadow: 0px 0px 4px black;
+    box-shadow: 0px 0px 5px black;
 }
 
 @media (max-width: 768px) {
