@@ -159,9 +159,12 @@ p {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    gap: 1em;
 
 }
-
+.footer_informacion{
+    gap: 2em;
+}
 .footer_informacion__titulo,
 .footer_sitemap__titulo,
 .footer_contacto {
@@ -172,10 +175,11 @@ p {
 .footer_informacion__lista {
     list-style: none;
     display: inline-block;
+    
 
 }
-
 .footer_informacion__lista a {
+
     display: inline-block;
     text-decoration: none;
     color: black;
