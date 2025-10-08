@@ -28,34 +28,35 @@
     <main>
         <div class="contenido">
             <div class="titulos_formulario">
-            <h1>Formulario de contacto</h1>
-            <p>Podés contactarte con nosotros completando este formulario o a través de nuestras redes.</p>
+                <h1>Formulario de contacto</h1>
+                <p>Podés contactarte con nosotros completando este formulario o a través de nuestras redes.</p>
+            </div>
+
+            <div class="formulario">
+                <form action="" class="form" method="post">
+                    <h2 class="form_titulo">Formulario de contacto</h2>
+                    <div class="form__input">
+                        <label for="nombre">Nombre Completo</label>
+                        <input required type="text" placeholder="Nombre Completo" id="nombre">
+                    </div>
+                    <div class="form__input">
+                        <label for="email">Email</label>
+                        <input required type="email" placeholder="ejemplo@gmail.com" id="email">
+                    </div>
+                    <div class="form__input">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="" id="mensaje" placeholder="Dejá tu mensaje acá"></textarea>
+                    </div>
+                    <div class="tyc">
+                        <label for="tyc">Acepto los terminos y condiciones
+                            <input required type="checkbox" class="checkbox" name="tyc" id="tyc">
+                        </label>
+                    </div>
+                    <button class="form_boton" type="submit">Enviar</button>
+                </form>
+            </div>
         </div>
 
-        <div class="formulario">
-            <form action="" class="form" method="post">
-                <h2 class="form_titulo">Formulario de contacto</h2>
-                <div class="form__input">
-                    <label for="nombre">Nombre Completo</label>
-                    <input required type="text" placeholder="Nombre Completo" id="nombre">
-                </div>
-                <div class="form__input">
-                    <label for="email">Email</label>
-                    <input required type="email" placeholder="ejemplo@gmail.com" id="email">
-                </div>
-                <div class="form__input">
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="" id="mensaje" placeholder="Dejá tu mensaje acá"></textarea>
-                </div>
-                <div class="tyc">
-                    <label for="tyc">Acepto los terminos y condiciones
-                        <input required type="checkbox" class="checkbox" name="tyc" id="tyc">
-                    </label>
-                </div>
-                <button class="form_boton" type="submit">Enviar</button>
-            </form>
-        </div></div>
-        
         <div class="separador">
             <h1 class="separador__titulo">Sponsors</h1>
             <section class="separador__imagenes">
@@ -67,21 +68,23 @@
                 <img src="../imagenes/sponsors/logoECOM.png" alt="ECOM">
                 <img src="../imagenes/sponsors/kempa.png" alt="Kempa">
                 <img src="../imagenes/sponsors/go7-2.png" alt="GO SEVEN">
-                </section>
+            </section>
         </div>
-        
+
     </main>
     <footer class="footer">
         <div class="footer_informacion">
             <h2 class="footer_informacion__titulo">ASOCHAH</h2>
             <ul class="footer_informacion__lista">
-                <li>Mendoza 1990, Resistencia, Chaco, Argentina</li>
-                <br>
-                <li>chaco@handballargentina.org</li>
-                <br>
-                <li>asochachohandball</li>
-                <br>
-                <li>youtube.com/@asochacohandball</li>
+                <li><a href="https://share.google/uKkP4F8v2mI34PLme" target="_blank" rel="noopener noreferrer"><img
+                            src="../imagenes/logo/map-pin.svg" alt="">Mendoza 1990, Resistencia, Chaco, Argentina</a>
+                </li>
+                <li><a href="mailto:chaco@handballargentina.org"><img src="../imagenes/logo/mail.svg"
+                            alt="mail">chaco@handballargentina.org</a></li>
+                <li> <a href="https://www.instagram.com/asochacohandball/" target="_blank" rel="noopener noreferrer">
+                        <img src="../imagenes/logo/brand-instagram.svg" alt="Logo IG">@asochacohandball</a></li>
+                <li><a href="https://www.youtube.com/@asochacohandball" target="_blank" rel="noopener noreferrer">
+                        <img src="../imagenes/logo/brand-youtube.svg" alt="">youtube.com/@asochacohandball</a></li>
             </ul>
 
         </div>
